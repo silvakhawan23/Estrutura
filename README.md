@@ -1,6 +1,6 @@
 # estrutura
 # compilação
 para compilar execute
-***shell
+```shell
 make instal
-***
+```
