@@ -23,3 +23,14 @@ help:
 	@echo "help		| Ajuda "
 	@echo "ola		| execulta menssagem de teste "
 	@echo "clean	| apaga codigo compilados "
+lista:
+	@echo "========================================="
+	@echo "         programa lista       "
+	@echo "========================================="
+	@echo "compilando programa lista "
+	gcc linked.c linked.h -o lista
+	@echo "tornando o programa executavel "
+	chmod +x ola
+	@echo "execultando o programa lista "
+	./lista
+	@echo "=========================================="
