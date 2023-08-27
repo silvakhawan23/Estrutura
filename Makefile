@@ -2,8 +2,8 @@ clean :
 	@echo "========================================="
 	@echo "Removendo os programas compilados "
 	@echo "========================"
-	@echo "Removendo o programa olamundo "
-	rm -f ola
+	@echo "Removendo o programa lista "
+	rm -f lista
 	@echo "=========================================="
 ola : clean
 	@echo "========================================="
@@ -33,4 +33,17 @@ lista:
 	chmod +x ola
 	@echo "execultando o programa lista "
 	./lista
+	@echo "=========================================="
+	
+
+dupla: clean 
+	@echo "========================================="
+	@echo "         programa dupla      "
+	@echo "========================================="
+	@echo "compilando programa dupla "
+	gcc DoublyLinkedList.c DoublyLinkedListTest.c DoublyLinkedList.h -o dupla
+	@echo "tornando o programa executavel "
+	chmod +x dupla
+	@echo "execultando o programa dupla"
+	./dupla
 	@echo "=========================================="
