@@ -1,6 +1,6 @@
 # estrutura
 # compilação
-para compilar execute
+Estruturas de programação em linguagem C 
 ```shell
 make instal
 ```
